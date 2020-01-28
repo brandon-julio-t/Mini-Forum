@@ -3,6 +3,12 @@
 - Change `DB_DATABASE` in `.env` file to absolute path of `db.sqlite` which resides in `database` folder
 - I rushed this project because I _personally_ hate Laravel.  
 
+## How to Launch
+
+- `git clone` this repository
+- `cd` into the clonned repository's directory
+- run `php artisan serve`
+
 ---
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
