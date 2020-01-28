@@ -1,3 +1,10 @@
+# PS 
+
+- Change `DB_DATABASE` in `.env` file to absolute path of `db.sqlite` which resides in `database` folder
+- I rushed this project because I _personally_ hate Laravel.  
+
+---
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">

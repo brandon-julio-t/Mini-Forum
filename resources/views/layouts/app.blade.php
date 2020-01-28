@@ -68,6 +68,8 @@
                                       style="display: none;">
                                     @csrf
                                 </form>
+
+                                <a href="{{ route('posts.create') }}" class="dropdown-item">Create Post</a>
                             </div>
                         </li>
                     @endguest
