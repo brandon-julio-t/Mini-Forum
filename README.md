@@ -1,12 +1,22 @@
-# PS 
+## What I Implemented
 
-- Change `DB_DATABASE` in `.env` file to absolute path of `db.sqlite` which resides in `database` folder
-- I rushed this project because I _personally_ hate Laravel.  
+- Implemented CRUD action
+- Uses `php artisan make:model` to create model, controller, and migration
+- Uses `php artisan migrate` to create and migrate database
+- Uses `php artisan make:controller` to create resource controller
+- Uses `blade` as server-side template engine
+- Uses `php artisan ui bootstrap --auth` to add user authentication
+- Uses `auth` middleware to authenticate user and block guest
+- Uses Eloquent ORM as database ORM
+- Uses Eloquent ORM Relationships to connect models in the relational database
+- Uses [Bootstrap](https://getbootstrap.com/) to design front-end
+- Uses [SQLite](https://sqlite.org/index.html) as database engine
 
 ## How to Launch
 
 - `git clone` this repository
 - `cd` into the clonned repository's directory
+- Change `DB_DATABASE` in `.env` file to absolute path of `db.sqlite` which resides in `database` folder
 - run `php artisan serve`
 
 ---
