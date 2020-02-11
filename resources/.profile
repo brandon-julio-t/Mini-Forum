@@ -1,1 +1,1 @@
-export SQLITE_PATH=$PATH:$HOME/mini-forum/database/db.sqlite
+export $SQLITE_PATH=$HOME/database/db.sqlite
