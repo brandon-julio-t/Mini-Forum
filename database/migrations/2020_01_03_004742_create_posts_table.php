@@ -14,10 +14,10 @@ class CreatePostsTable extends Migration
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {
-            $table->bigIncrements('id')->collation('utf8_unicode_ci');
-            $table->lineString('title')->collation('utf8_unicode_ci');
-            $table->multiLineString('body')->collation('utf8_unicode_ci');
-            $table->unsignedBigInteger('user_id')->collation('utf8_unicode_ci');
+            $table->bigIncrements('id');
+            $table->lineString('title');
+            $table->multiLineString('body');
+            $table->unsignedBigInteger('user_id');
             $table->timestamps();
 
             $table->foreign('user_id')
