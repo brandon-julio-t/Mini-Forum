@@ -10,7 +10,7 @@
 - Uses Eloquent ORM as database ORM
 - Uses Eloquent ORM Relationships to connect models in the relational database
 - Uses [Bootstrap](https://getbootstrap.com/) to design front-end
-- Uses [SQLite](https://sqlite.org/index.html) as database engine
+- Uses [Heroku Postgres](https://www.heroku.com/postgres) as database engine
 
 ## How to Launch
 
