@@ -3,6 +3,10 @@
 
 # Mini Forum
 
+## Note
+
+The app will take a while to "wake-up" because of how [Heroku](https://www.heroku.com/) works.
+
 ## What I Implemented
 
 - Implemented CRUD action
